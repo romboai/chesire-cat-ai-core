@@ -33,7 +33,7 @@ If you have ever used systems like WordPress or Django to build web apps, imagin
 To make Cheshire Cat run on your machine, you just need [`docker`](https://docs.docker.com/get-docker/) installed:
 
 ```bash
-docker run --rm -it -p 1865:80 ghcr.io/cheshire-cat-ai/core:latest
+docker compose up
 ```
 - Chat with the Cheshire Cat on [localhost:1865/admin](http://localhost:1865/admin).
 - You can also interact via REST API and try out the endpoints on [localhost:1865/docs](http://localhost:1865/docs)
